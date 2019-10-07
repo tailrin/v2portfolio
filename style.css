@@ -149,3 +149,17 @@ p {
 .auto-height {
     height: auto;
 }
+
+@media screen and (min-width: 600px){
+    #about-me {
+        height: 100%;
+    }
+    
+    #projects {
+        height: 100%;
+    }
+    
+    body {
+        height: 100%;
+    }
+}
