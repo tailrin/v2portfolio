@@ -15,23 +15,21 @@ function openCity(cityName,elmnt,color) {
   // Get the element with id="defaultOpen" and click on it
 $("#defaultOpen").click();
 
+$(document).ready(function(){
+    store.push(projectGenerator("Question.png", "Quiz App", "https://tailrin.github.io/quiz-app", "https://github.com/tailrin/quiz-app", ["Javascript", "Jquery", "html", "css"], "This app is a simple quiz app of the state capitals. 15 of the 50 states will be randomly chosen to be asked about. This quiz would be great for kids who are studying United States geography."));
+});
+
 function generateProjectsHTML(){
     const arr = [`<ul id="projects-tab">`];
     store.forEach(project => {
-        arr.push(`<li class="flexible"><img class="screen-shot" src="images/${project.screenShot}" alt="application screenshot">
-        <div>`, `<h3>${project.name}</h3>`, `<div class="link-wrapper">`, `<a class="white" href="${project.live}" target="_blank"> Live App</a>`, `<a class="white" href="${project.repo}" target="_blank" id="repo">Repo</a>`, `</div>`, `<p>${project.description}</p>`, `<h4>Technologies Used</h4>`, `<ul class="tech">`, generateTechList(project), `</ul>`, `</div>`, `</li>`)
+        arr.push(project.generateProjectHTML())
     });
     arr.push('</ul>')
     return arr.join("");
 }
 
-function generateTechList(project){
-    const arr = []
-    project.tech.forEach(tech => {
-        arr.push(`<li><img class="icon icon-right" src="images/${tech}.png" alt="${tech} icon"></li>`);
-    });
-    return arr.join("");
-}
-   
+
+
+
 
 
