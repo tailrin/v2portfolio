@@ -52,6 +52,13 @@ body {
     flex-direction: column;
     height: auto;
     width: 100%;
+    margin: 0px;
+    position:absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    z-index:1;
 }
 
 .tablink {
@@ -75,7 +82,7 @@ body {
     color: white;
     display: none;
     padding: 50px;
-    height: 100%;
+    height: auto;
     flex-direction: row;
 }
 
@@ -122,13 +129,13 @@ p {
 }
 
 #about-me {
-    background-image:url('images/longs.jpg');
+    background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url('images/longs.jpg');
     height: auto;
 }
 
 
 #projects {
-    background-image:url('images/steel.jpg');
+    background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url('images/steel.jpg');
     height: auto;
 }
 
@@ -150,7 +157,21 @@ p {
     height: auto;
 }
 
-@media screen and (min-width: 600px){
+@media screen and (min-width: 600px) and (orientation: portrait){
+    #about-me {
+        height: 100%;
+    }
+    
+    #projects {
+        height: 100%;
+    }
+    
+    body {
+        height: 100%;
+    }
+}
+
+@media screen and (min-width: 850px){
     #about-me {
         height: 100%;
     }
