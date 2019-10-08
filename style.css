@@ -53,12 +53,6 @@ body {
     height: auto;
     width: 100%;
     margin: 0px;
-    position:absolute;
-    top: 0;
-    right: 0;
-    bottom: 0;
-    left: 0;
-    z-index:1;
 }
 
 .tablink {
@@ -173,10 +167,6 @@ p {
 
 @media screen and (min-width: 850px){
     #about-me {
-        height: 100%;
-    }
-    
-    #projects {
         height: 100%;
     }
     
