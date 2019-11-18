@@ -159,18 +159,4 @@ h3 {
     height: auto;
 }
 
-/* @media screen and (min-width: 600px) and (orientation: portrait){
-    #about-me {
-        height: 100%;
-    }
-    
-    #projects {
-        height: 100%;
-    }
-}
 
-@media screen and (min-width: 850px){
-    #about-me {
-        height: 100%;
-    }
-} */
