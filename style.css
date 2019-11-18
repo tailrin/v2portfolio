@@ -50,7 +50,7 @@ body {
     font-family: "Lato", sans-serif;
     display: flex;
     flex-direction: column;
-    height: auto;
+    height: 100%;
     width: 100%;
     margin: 0px;
 }
@@ -124,13 +124,13 @@ p {
 
 #about-me {
     background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url('images/longs.jpg');
-    height: auto;
+    height: 100%;
 }
 
 
 #projects {
     background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url('images/steel.jpg');
-    height: auto;
+    height: 100%;
 }
 
 h3 {
@@ -153,29 +153,29 @@ h3 {
 }
 
 .auto-height {
-    height: auto;
+    height: 100%;
 }
 
 @media screen and (min-width: 600px) and (orientation: portrait){
     #about-me {
-        height: auto;
+        height: 100%;
     }
     
     #projects {
-        height: auto;
+        height: 100%;
     }
     
     body {
-        height: auto;
+        height: 100%;
     }
 }
 
 @media screen and (min-width: 850px){
     #about-me {
-        height: auto;
+        height: 100%;
     }
     
     body {
-        height: auto;
+        height: 100%;
     }
 }
