@@ -76,7 +76,6 @@ body {
     color: white;
     display: none;
     padding: 50px;
-    height: auto;
     flex-direction: row;
 }
 
