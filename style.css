@@ -162,7 +162,7 @@ h3 {
     }
     
     #projects {
-        height: 100%;
+        height: auto;
     }
     
     body {
