@@ -158,7 +158,7 @@ h3 {
 
 @media screen and (min-width: 600px) and (orientation: portrait){
     #about-me {
-        height: 100%;
+        height: auto;
     }
     
     #projects {
@@ -166,16 +166,16 @@ h3 {
     }
     
     body {
-        height: 100%;
+        height: auto;
     }
 }
 
 @media screen and (min-width: 850px){
     #about-me {
-        height: 100%;
+        height: auto;
     }
     
     body {
-        height: 100%;
+        height: auto;
     }
 }
