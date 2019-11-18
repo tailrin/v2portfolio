@@ -17,6 +17,7 @@ $("#defaultOpen").click();
 
 $(document).ready(function(){
     store.push(projectGenerator("Question.png", "Quiz App", "https://tailrin.github.io/quiz-app", "https://github.com/tailrin/quiz-app", ["Javascript", "Jquery", "html", "css"], "This app is a simple quiz app of the state capitals. 15 of the 50 states will be randomly chosen to be asked about. This quiz would be great for kids who are studying United States geography."));
+    store.push(projectGenerator("beer.png", "Brewery App", "https://tailrin.github.io/brewery-app/", "https://github.com/tailrin/brewery-app", ["Javascript", "Jquery", "html", "css"], "This a search engine for breweries. This app is good for people looking for things to do in a specific area and find some good beer in the process."));
 });
 
 function generateProjectsHTML(){
