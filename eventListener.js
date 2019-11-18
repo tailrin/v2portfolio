@@ -8,6 +8,11 @@ function openCity(cityName,elmnt,color) {
     for (i = 0; i < tablinks.length; i++) {
       tablinks[i].style.backgroundColor = "";
     }
+    if(cityName === "projects"){
+        $("#height-adjuster").addClass("auto-height").removeClass("height-100");  
+    }else{
+         $("#height-adjuster").addClass("height-100").removeClass("auto-height");
+    }
     document.getElementById(cityName).style.display = "flex";
     elmnt.style.backgroundColor = color;
     $("#projects").html(generateProjectsHTML());
