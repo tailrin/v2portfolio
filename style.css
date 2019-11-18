@@ -157,7 +157,7 @@ h3 {
     height: 100%;
 }
 
-@media screen and (min-width: 600px) and (orientation: portrait){
+/* @media screen and (min-width: 600px) and (orientation: portrait){
     #about-me {
         height: 100%;
     }
@@ -171,4 +171,4 @@ h3 {
     #about-me {
         height: 100%;
     }
-}
+} */
