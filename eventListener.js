@@ -23,6 +23,8 @@ $("#defaultOpen").click();
 $(document).ready(function(){
     store.push(projectGenerator("Question.png", "Quiz App", "https://tailrin.github.io/quiz-app", "https://github.com/tailrin/quiz-app", ["Javascript", "Jquery", "html", "css"], "This app is a simple quiz app of the state capitals. 15 of the 50 states will be randomly chosen to be asked about. This quiz would be great for kids who are studying United States geography."));
     store.push(projectGenerator("beer.png", "Brewery App", "https://tailrin.github.io/brewery-app/", "https://github.com/tailrin/brewery-app", ["Javascript", "Jquery", "html", "css"], "This a search engine for breweries. This app is good for people looking for things to do in a specific area and find some good beer in the process."));
+    store.push(projectGenerator("bugTrapper.png", "Bug Trapper", "https://bug-trapper-client.now.sh", "https://github.com/tailrin/bug-trapper-client", "This app is an issue tracker for software development. You can track projects and and log issues as well as keep track of the work done on those issues", ["Javascript", "node", "postgre", "html", "css", "react"]));
+    store.push(projectGenerator("projectTracker.png", "Project Tracker", "https://project-tracker.now.sh/", "https://github.com/tailrin/project-tracker-client", "This a a collaborative project tracker designed for use by companies. You can create and prioritize projects, track tasks and assign priority.", ["Javascript", "node", "postgre", "html", "css", "react"]));
 });
 
 function generateProjectsHTML(){
