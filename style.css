@@ -161,4 +161,10 @@ h3 {
     height: auto;
 }
 
-
+@media screen and (min-height: 700px){
+    @media screen and (min-width: 600px){
+        html{
+            height: 100%;
+        }
+    } 
+}
